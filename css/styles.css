@@ -9,8 +9,72 @@ body>header{
   background: none;
   background-color: rgba(255,255,255,1);
 }
+#logo{
+  margin-top:10px;
+}
 .main-menu{
-
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.top-menu{
+  background-color: #1b5e20;
+  color: #fff;
+  font-size: 1.1em;
+  max-height: 40px;
+}
+.top-menu .navbar-nav>li>a{
+  color: #fff;
+  max-height: 40px;
+  line-height: 10px;
+}
+.top-menu .navbar-nav>li>a:hover{
+  background-color:#fff;
+  color: #000;
+}
+.top-menu .icon{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.top-menu .mini-social-menu{
+  font-size: 1.2em;
+  max-height: 40px;
+  line-height: 20px;
+}
+.top-menu .mini-social-menu .phone-number{
+  font-size: 1em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 32px;
+}
+.top-menu .mini-social-menu .phone-number .navbar-link{
+  color: #fff;
+}
+.top-menu .mini-social-menu .phone-number .navbar-link:hover{
+  color: #ffeb3b;
+}
+.top-menu .mini-social-menu .navbar-text{
+  font-size: 1em;
+  max-height: 40px;
+  line-height: 10px;
+}
+.mini-social-menu .icon{
+  line-height: 40px;
+  text-align: center;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.top-menu .mini-social-menu .navbar-nav>li>a.navbar-link{
+  color: #fff;
+  max-height: 40px;
+  line-height: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding:0px;
+}
+.top-menu .mini-social-menu .navbar-nav>li>a.navbar-link:hover{
+  color: #ffeb3b;
+  background-color: transparent;
 }
 .main-menu h1{
   padding:1% 0;
@@ -28,11 +92,10 @@ body>header{
   min-height: 97px;
 }
 
-
 .main-menu nav.navbar ul.nav>li>a{
   height: 97px;
   color: #666;
-  font-family: 'Open Sans', sans-serif;
+  font-size:1.5em;
   font-weight: 400;
   line-height: 60px;
   text-decoration:none;
@@ -99,7 +162,7 @@ body>header{
 }
 .tem{
 }
-  .logo-aliados{
+.logo-aliados{
   height: 80px;
   width: auto;
   float: left;
