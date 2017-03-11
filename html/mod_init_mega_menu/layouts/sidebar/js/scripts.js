@@ -20,7 +20,7 @@ $(document).ready(function () {
         trigger.addClass('is-open');
         isClosed = true;
       }
-  }
+    }
 
   $('[data-toggle="offcanvas"]').click(function () {
         $('#wrapper').toggleClass('toggled');
