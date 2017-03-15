@@ -85,6 +85,10 @@ html {
   background-color: #1a1a1a;
   color: #ffffff;
 }
+.sidebar-nav li:first-child(1):before {
+  background-color: #006E2E;
+  color: #ffffff;
+}
 .sidebar-nav li:nth-child(2):before {
   background-color: #1b5e20;
 }
