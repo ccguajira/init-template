@@ -184,8 +184,10 @@ h3{
   margin-right: 20px;
   font-size: 0.5em;
   font-weight: lighter;
-  border-color: #3a6e00;
-  background-color: #3a6e00;
+  background-color: #388E3C;
+}
+.news .page-header h2 .btn:hover{
+  background-color: #4CAF50;
 }
 .panel-title{
   min-height: 60px;
@@ -205,13 +207,24 @@ h3{
   font-weight: 300;
   color: #666;
 }
-.news-meta{
-  display: block;
-  margin-bottom: 20px;
+.news .meta-data{
+  margin-top: 20px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #ccc;
 }
-.news-meta{
-  width: 100%;
+.news .meta{
+  margin-top: 10px;
   color: #aaa;
+}
+.news .meta .shared{
+
+}
+.news .meta .commented{
+
+}
+.news .meta .date{
+
 }
 .panel-news .panel-heading{
   font-size: 1em;
@@ -254,19 +267,53 @@ h3{
 }
 .panel-news .panel-body .btn{
   background-color: #fff;
-  border: 1px solid #3a6e00;
-  color: #3a6e00;
+  color: #388E3C;
   font-size: 1em;
-  font-weight: lighter;
+  font-weight: normal;
 }
 .panel-news .panel-body .btn:hover{
-  background-color: #3a6e00;
+  background-color: #388E3C;
   color: #fff;
-  border: 1px solid #3a6e00;
+  border: 1px solid #388E3C;
   text-decoration: none;
 }
 .panel-news .panel-body p{
   min-height: 80px;
+}
+.plans{
+  font-weight: lighter;
+}
+.plans .panel{
+  border: none;
+}
+.plans .item .panel-heading{
+  min-height: 110px;
+  line-height: 100%;
+  color: #fff;
+  border-bottom: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.plans .affiliates .panel-heading{
+  background: url(../img/backgrounds/header-affiliates.jpg);
+  background-position: top;
+  background-size: cover;
+  border-radius: 0px;
+}
+.plans .trainings .panel-heading{
+  background: url(../img/backgrounds/header-trainings.jpg);
+  background-position: top;
+  background-size: cover;
+  border-radius: 0px;
+}
+.plans .events .panel-heading{
+  background: url(../img/backgrounds/header-events.jpg);
+  background-position: top;
+  background-size: cover;
+  border-radius: 0px;
+}
+footer{
+  font-weight: lighter;
 }
 .footer-top{
   margin-top: 50px;
@@ -405,18 +452,18 @@ h3{
   color: #fff;
   display: inline-block;
   border: none;
-  background: #3a6e00;
+  background: #388E3C;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-weight: 300;
   padding: 8px 24px;
   margin-left: -5px;
 }
 .subscribe-wide .btn-lg{
-  background-color: #3a6e00;
+  background-color: #388E3C;
 }
 .subscribe-wide .btn.focus, .subscribe-wide .btn:focus, .subscribe-wide .btn:hover {
     color: #fff;
-    background: #3a6e00;
+    background: #388E3C;
 }
 .subscribe-wide .form-control {
     border: 1px solid #dcdfe4;
@@ -426,7 +473,7 @@ h3{
     font-weight: 300;
 }
 .subscribe-wide .form-control:focus {
-    border: 1px solid #3a6e00;
+    border: 1px solid #388E3C;
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 5px rgba(67,160,71,0.3)
 }
@@ -441,7 +488,7 @@ h3{
   box-shadow:0 1px 5px rgba(0, 0, 0, 0.1);
 }
 .subscribe-wide .panel-floating {
-    border-top: 5px solid #3a6e00;
+    border-top: 5px solid #388E3C;
     overflow: hidden;
     box-shadow: 0 2px 15px rgba(0,0,0,0.1);
 }
@@ -595,67 +642,7 @@ h3{
     font-size: 17px;
     margin-bottom: 8px;
 }
-.events-list .date{
-  box-sizing: border-box;
-  border-color: #ddd;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 4px;
-  box-shadow: #333;
-  box-shadow: 0 1px 1px rgba(0,0,0,.05);
-}
-.events-list a:hover{
-  text-decoration: none;
-}
-.events-list .date .heading{
 
-}
-.events-list .date .heading .month{
-  width: 58px;
-  font-size: 1em;
-  color: #fff;
-  background-color: #bf360c;
-  margin: 0px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  border-top-width: 1px;
-  border-left-width: 1px;
-  border-right-width: 1px;
-  border-top-color: #bf360c;
-  border-left-color: #bf360c;
-  border-right-color: #bf360c;
-  border-top-style: solid;
-  border-left-style: solid;
-  border-right-style: solid;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  font-weight: 700;
-}
-.events-list .media-heading{
-  font-weight: bold;
-}
-.events-list .date .heading time{
-  width: 58px;
-  line-height: 40px;
-  color:#333;
-  display: inline-block;
-  background-color: #fff;
-  margin: 0px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
-  border-right-width: 1px;
-  border-bottom-color: #fff;
-  border-left-color: #fff;
-  border-right-color: #fff;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-right-style: solid;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-  text-align: center;
-  font-size: 1.3em;
-  font-weight: 700;
-}
 .direct-access .item{
   margin-top: 17px;
   margin-bottom: 17px;
@@ -673,7 +660,7 @@ h3{
   margin-bottom: 40px;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: grey;
+  background-color: #eee;
 }
 .plans .item{
   margin-top: 40px;
@@ -765,9 +752,7 @@ h3{
       padding: 0px;
       background-color: rgba(255,255,255,0);
     }
-    /*
 
-     */
     .services{
       padding-top: 40px;
       padding-bottom: 40px;
@@ -789,7 +774,6 @@ h3{
     .plans{
       padding-top: 40px;
       padding-bottom: 40px;
-      /*background-image: url(../images/backgrounds/pattern.png)*/;
       background-position: bottom right;
       background-attachment: fixed;
       background-size: cover;
@@ -802,26 +786,7 @@ h3{
       margin-left: -40px;
       margin-right: -40px;
       padding: 0px;
-      background-color: rgba(67,160,71,1);
-    }
-    .info-panel{
-      margin-top: 40px;
-      margin-bottom: 40px;
-      padding-top: 40px;
-      padding-bottom: 40px;
-      background-color: #3bb3c3;
-      background-image: url(../images/backgrounds/conciliacion.jpg);
-      background-attachment: fixed;
-      background-size: cover;
-    }
-    .info-panel .wrap{
-      margin-top: -40px;
-      margin-bottom: -40px;
-      margin-left: -40px;
-      margin-right: -40px;
-      padding-top: 40px;
-      padding-bottom: 40px;
-      /*background-color: rgba(67,160,71,0.9);*/
+
     }
 }
 @media (min-width: 768px){
