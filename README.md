@@ -1,2 +1,2 @@
 # init-template
-HTML5 general template for Cámara de Comercio de La Guajira. Include modules and plugins in low resolution development for general purposes and uses.
+HTML5 general purpose template by Cámara de Comercio de La Guajira with @pedrozopayares. Include modules and plugins in low resolution.
