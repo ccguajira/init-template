@@ -1,0 +1,196 @@
+.related-modules{
+  margin-top:30px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.related-modules .item{
+  margin-top:30px;
+}
+.related-modules .panel{
+  background-color: #fff;
+  border: none;
+  min-height: 500px;
+  -moz-box-shadow:0 1px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  box-shadow:0 1px 5px rgba(0, 0, 0, 0.1);
+}
+.related-modules .panel .panel-body, .related-modules .panel .list-group-item{
+  padding-left: 20px;
+  padding-right:20px;
+}
+.related-modules .item .panel-heading{
+  color: #fff;
+  border-bottom: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.related-modules .item .panel-heading h2{
+  font-size: 1.5em;
+  font-weight: 300;
+}
+.related-modules .affiliates .panel-heading{
+  background-color: #8BC34A;
+  border-radius: 0px;
+}
+.related-modules .affiliates .panel-heading .icon-affiliates{
+  width: 30px;
+  height: 30px;
+}
+.related-modules .related-news .panel-heading{
+  background-color: #388E3C;
+  border-radius: 0px;
+}
+.related-modules .affiliates .list-group .list-group-item, .related-modules .related-news .list-group .list-group-item{
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;;
+  font-size: 1.1em;
+  font-weight: 300;
+  border-width: 0px;
+}
+.related-modules .affiliates .list-group .list-group-item .list-icon{
+  margin-left: 10px;
+  margin-right: 5px;
+  font-size: 0.8em;
+  color: #777;
+}
+.related-modules .events .event{
+  margin-bottom: 10px;
+}
+.related-modules .events .panel-heading{
+  background-color: #ff9800;
+  border-radius: 0px;
+}
+.related-modules .events .badge{
+  border-radius: 50px !important;
+  background-color: #999;
+}
+.related-modules .events .panel-body .title{
+  margin-top: 5px;
+  font-weight: 300;
+  font-size: 1.3em;
+}
+.related-modules .events .panel-body .title a{
+  color: inherit;
+}
+.related-modules .events .panel-body .title a:hover{
+  color: #888;
+  text-decoration: none;
+}
+.related-modules .events .panel-body .date .day{
+  font-size: 2.1em;
+  font-weight: 300;
+  color: #ff9800;
+}
+.related-modules .events .panel-body .date .month{
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.related-modules .events .panel-body .date .month small{
+  font-size: 1em;
+  letter-spacing:2pt;
+  font-weight: normal;
+  color: #aaa;
+}
+
+/********************
+*     SHOWCASE      *
+*********************/
+.showcase .jumbotron .header{
+  font-weight: bolder;
+  font-size: 3em;
+  line-height: 0.7em;
+  padding-top: 40px;
+  margin-bottom: 0.1em;
+}
+.showcase .jumbotron p{
+  color: #777;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background: none;
+}
+/*********************
+*     BREADCRUMB     *
+*********************/
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 0px;
+    background-color: #fff;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    color:
+}
+/*******************
+*     ARTICLE      *
+*******************/
+div[itemprop="articleBody"] p{
+  color: rgba(0,0,0,0.87);
+  font-size: 1.15em;
+  line-height: 1.6em;
+  font-weight: 300;
+  text-align: justify;
+}
+div[itemprop="articleBody"] .figure-intro{
+  width: 100%;
+  max-width:100%;
+  height: auto;
+  margin:10px;
+  float:left;
+}
+div[itemprop="articleBody"] p:last-child{
+  margin-bottom: 30px;
+}
+.showcase .jumbotron p{
+  color: #777;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background: none;
+}
+@media (min-width:720px) {
+  div[itemprop="articleBody"] .figure-intro{
+    max-width:343px;
+    margin:10px;
+    float:left;
+  }
+}
+@media (min-width: 992px) {
+  /********************
+  *     DESKTOP      *
+  *********************/
+  .showcase{
+    min-height: 60px;
+    max-height: 201px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background:none;
+    position: relative;
+    overflow: hidden;
+  }
+  .showcase .wrap{
+    min-height: 60px;
+    max-height: 201px;
+    background-image: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    background:none;
+  }
+  .showcase .jumbotron{
+    min-height: 181px;
+    max-width: 1140px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: url(../../../../img/backgrounds/tetrix-1.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: transparent;
+  }
+  .showcase .jumbotron .banner-main{
+    margin: 0 auto;
+    max-width: 70%;
+  }
+}
