@@ -129,7 +129,7 @@ h3{
 }
 /**** MAIN MENU *****/
 .main-menu, .main-menu p, h1, h2, h3, h4, h6{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 /**** HAMBURGUER MENU *****/
 .main-menu .wrap-hamburguer{
@@ -137,14 +137,14 @@ h3{
   max-height: 40px;
   position: relative;
 }
-.main-menu nav.navbar .navbar-toggle .icon-bar {
+.main-menu nav.navbar .navbar-toggle .icon-bar{
     background-color: black;
 }
 .main-menu h1{
   margin: 0px;
   text-align: right;
 }
-#main-menu ul li a:focus, #main-menu ul li a:hover {
+#main-menu ul li a:focus, #main-menu ul li a:hover{
     color: #388e3c;
     background-color: transparent;
 }
@@ -168,7 +168,7 @@ h3{
 #main-menu ul li[aria-expanded="true"]{
   background-color: red;
 }
-#main-menu ul li[aria-expanded="true"]::before {
+#main-menu ul li[aria-expanded="true"]::before{
   content: "";
   background-color: red;
   border-bottom: 15px solid #fff;
@@ -279,7 +279,7 @@ h3{
   margin-right: 20px;
   padding-left: 30px;
   padding-right: 30px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;;
   font-size: 1.5em;
   font-weight: lighter;
   border: none;
@@ -295,7 +295,7 @@ h3{
   padding-left: 18px;
   padding-right: 18px;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;;
   font-size: 1.8em;
   font-weight: 400;
   color: #444;
@@ -406,7 +406,7 @@ h3{
   border-radius: 0px;
 }
 .plans .affiliates .list-group .list-group-item, .plans .trainings .list-group .list-group-item{
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;;
   font-size: 1.1em;
   font-weight: 300;
   border-width: 0px;
@@ -539,7 +539,7 @@ footer{
   margin-bottom: 5px;
 }
 .services-panel h3{
-  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
   font-size: 1.3em;
   font-weight: lighter;
   margin-top: 0px;
@@ -591,7 +591,7 @@ footer{
   display: inline-block;
   border: none;
   background: #388E3C;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;;
   font-weight: 300;
   padding: 8px 24px;
   margin-left: -5px;
