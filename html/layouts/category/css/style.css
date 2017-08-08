@@ -1,3 +1,25 @@
+.category .description p{
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  text-align: justify;
+}
+.category .items-more a{
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+}
+.category .items-more a, .category .cat-children a{
+  color: #43a047;
+}
+.category .cat-children{
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+.category .cat-children h3{
+  margin-top:0px;
+  padding-top: 0px;
+}
 .related-modules{
   margin-top:30px;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -41,9 +63,6 @@
 .related-modules .related-news .btn{
   background-color: #388E3C;
   border-radius: 0px;
-}
-.related-modules .related-news .panel-heading.header-bg{
-
 }
 .related-modules .affiliates .list-group .list-group-item, .related-modules .related-news .list-group .list-group-item{
   font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;;
@@ -133,7 +152,6 @@
 *     ARTICLE      *
 *******************/
 .item-page .page-header{
-
   margin-top: 0px;
 }
 .item-page .article-info{
@@ -220,9 +238,9 @@ div[itemprop="articleBody"] p:last-child{
 }
 @media (min-width:1400px){
   .article{
-    background-image: url(../../../../img/backgrounds/home-showcase-wrap.png);
+    background-image: url(../../../../img/backgrounds/tetrix-1.png);
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: -100px top;
     background-color: transparent;
   }
 }

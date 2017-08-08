@@ -43,6 +43,16 @@ pre,
 .btn{
 
 }
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #43a047;
+    border-color: #43a047;
+}
+.pagination>li>a, .pagination>li>span {
+    color: #43a047;
+}
+.counter{
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover{
   border-color: #388E3C;
 }
@@ -464,6 +474,10 @@ p{
   font-weight: normal;
   color: #aaa;
 }
+.related-modules .events .btn{
+  background-color: #ff9800;
+  border-color: #ff9800;
+}
 footer{
   font-weight: lighter;
 }
@@ -583,19 +597,19 @@ footer{
 *          SUBSCRIBE            *
 ********************************/
 .bordered, .row-backbordered {
-    position: relative;
-    margin-bottom: 20px;
+  position: relative;
+  margin-bottom: 20px;
 }
 .subscribe-wide h3{
-    font-size: 1.8em;
-    font-weight: 300;
-    margin-bottom: 0px;
-    margin-bottom: 0px;
+  font-size: 1.8em;
+  font-weight: 300;
+  margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 .subscribe-wide .text-muted {
-    color: #697176;
-    font-size: 1.3em;
-    font-weight: lighter;
+  color: #697176;
+  font-size: 1.3em;
+  font-weight: lighter;
 }
 .subscribe-wide .btn{
   color: #fff;
@@ -795,6 +809,18 @@ footer{
 }
 .m-t-lg {
     margin-top: 40px !important;
+}
+.m-b-xs {
+    margin-bottom: 0 !important;
+}
+.m-b-sm {
+    margin-bottom: 10px !important;
+}
+.m-b-md {
+    margin-bottom: 20px !important;
+}
+.m-b-lg {
+    margin-bottom: 40px !important;
 }
 .notifications h5 {
     font-size: 17px;
