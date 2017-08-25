@@ -387,88 +387,89 @@ p{
 .panel-news .panel-body p{
   min-height: 80px;
 }
-.plans{
-  background-color: #efefef;
+.sidebar{
   font-weight: lighter;
 }
-.plans .panel{
+.sidebar .panel{
   border: none;
   min-height: 500px;
   -moz-box-shadow:0 1px 5px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   box-shadow:0 1px 5px rgba(0, 0, 0, 0.1);
 }
-.plans .panel .panel-body, .plans .panel .list-group-item{
+.sidebar .panel .panel-body, .plans .panel .list-group-item{
   padding-left: 20px;
   padding-right:20px;
 }
-.plans .item .panel-heading{
+.sidebar .item .panel-heading{
   color: #fff;
   border-bottom: none;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-.plans .item .panel-heading h2{
+.sidebar .item .panel-heading h2{
   font-size: 1.5em;
   font-weight: 300;
 }
-.plans .affiliates .panel-heading{
+.sidebar .affiliates .panel-heading{
   background-color: #8BC34A;
   border-radius: 0px;
 }
-.plans .affiliates .panel-heading .icon-affiliates{
+.sidebar .affiliates .panel-heading .icon-affiliates{
   width: 30px;
   height: 30px;
 }
-.plans .trainings .panel-heading{
+.sidebar .trainings .panel-heading{
   background-color: #cddc39;
   border-radius: 0px;
 }
-.plans .affiliates .list-group .list-group-item, .plans .trainings .list-group .list-group-item{
+.sidebar .affiliates .list-group .list-group-item, .plans .trainings .list-group .list-group-item{
   font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;;
   font-size: 1.1em;
   font-weight: 300;
   border-width: 0px;
 }
-.plans .affiliates .list-group .list-group-item .list-icon{
+.sidebar .affiliates .list-group .list-group-item .list-icon{
   margin-left: 10px;
   margin-right: 5px;
   font-size: 0.8em;
   color: #777;
 }
-.plans .events .event{
+/** Events **/
+
+.sidebar .events .event{
   margin-bottom: 10px;
 }
-.plans .events .panel-heading{
+.sidebar .events .panel-heading{
   background-color: #ff9800;
   border-radius: 0px;
 }
-.plans .events .badge{
+.sidebar .events .badge{
   border-radius: 50px !important;
   background-color: #999;
 }
-.plans .events .panel-body .title{
+.sidebar .events .panel-body .title{
   margin-top: 5px;
   font-weight: 300;
   font-size: 1.3em;
 }
-.plans .events .panel-body .title a{
+.sidebar .events .panel-body .title a{
   color: inherit;
 }
-.plans .events .panel-body .title a:hover{
+.sidebar .events .panel-body .title a:hover{
   color: #888;
   text-decoration: none;
 }
-.plans .events .panel-body .date .day{
+.sidebar .events .panel-body .date .day{
   font-size: 2.1em;
   font-weight: 300;
   color: #ff9800;
 }
-.plans .events .panel-body .date .month{
+.sidebar .events .panel-body .date .month{
   font-weight: normal;
   text-transform: uppercase;
 }
-.plans .events .panel-body .date .month small{
+.sidebar .events .panel-body .date .month small{
   font-size: 1em;
   letter-spacing:2pt;
   font-weight: normal;
@@ -996,7 +997,7 @@ footer{
     }
 
     .showcase .wrap{
-      min-height: 400px;
+      min-height: 300px;
       margin-top: -20px;
       margin-bottom: -40px;
       margin-left: -40px;
