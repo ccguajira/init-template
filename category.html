@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Cámara de Comercio de La Guajira. Plantilla general para uso en página web">
+  <meta name="author" content="Cámara de Comercio de La Guajira">
+	<title>Cámara de Comercio de La Guajira - Init Templete</title>
+
+	<link rel="shortcut icon" href="http://www.camaraguajira.org/favicon.ico">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/owl-carousel/dist/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/owl-carousel/dist/assets/owl.theme.green.min.css">
+
+	<!--[if IE 7]>
+  		<link rel="stylesheet" href="compatibility/fonts/font-awesome-3.2.1/css/font-awesome-ie7.min.css">
+	<![endif]-->
+	<link rel="stylesheet" href="html/mod_init_mega_menu/layouts/sidebar/css/styles.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="html/mod_init_mega_menu/css/styles.css">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+	<link rel="stylesheet" href="html/layouts/category/css/style.css">
+	<link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="default">
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.7";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<div id="wrapper">
+		<div class="overlay"></div>
+		<!-- Sidebar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+        <ul class="nav sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="#">
+                   Bienvenido...
+                </a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-fw fa-home"></i> Inicio</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-folder"></i>Servicios CAE<span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+                <li><a href="#">Registros Públicos</a></li>
+								<li><a href="#">Renovación de Registros</a></li>
+								<li><a href="#">Tarifas</a></li>
+								<li><a href="#">Certificados Electrónicos</a></li>
+								<li><a href="#">Crear Empresa</a></li>
+								<li><a href="#">Noticia Mercantil</a></li>
+								<li><a href="#">Solicitudes de Inscripción</a></li>
+								<li><a href="#">Funcionarios CAE</a></li>
+								<li><a href="#">Listado de Beneficiarios Ley 1429</a></li>
+							</ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-file-o"></i>Servicios Empresariales<span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Desarrollo y Promoción Empresarial</a></li>
+                  <li><a href="#">Centro Integral de Solución de Conflictos</a></li>
+                  <li><a href="#">Gestión Cívica y Social</a></li>
+								</ul>
+            </li>
+						<li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-cog"></i>Publicaciones <span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Informes</a></li>
+                  <li><a href="#">Investigación</a></li>
+									<li><a href="#">Circulares y Avisos Legales</a></li>
+									<li><a href="#">Noticias y Boletines</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-bank"></i> Nosotros <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Cámara de Comercio</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Cámara Virtual</a></li>
+                <li><a href="#">Encuestas</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-fw fa-calendar"></i> Eventos y Capacitaciones</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-fw fa-desktop"></i> Cámara Virtual</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-fw fa-book"></i> Encuestas</a>
+            </li>
+						<li class="dropdown-header">Contacto</li>
+						<li><a href="#">Formulario PQR</a></li>
+						<li><a href="#">Sedes y Horarios de Atención</a></li>
+						<li><a href="#">Preguntas frecuentes</a></li>
+        </ul>
+    </nav>
+        <!-- /#sidebar-wrapper -->
+		<div id="page-content-wrapper">
+			<header class="main-menu">
+				<section class="top-menu">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="row">
+									<ul class="nav navbar-nav col-md-12 hidden-xs hidden-sm visible-md-block visible-lg-block">
+										<li><a href="#" title="Formulario de Contacto" class="header-mini-menu"><span class="icon fa fa-pencil-square-o" aria-hidden="true"></span>Contáctenos</a></li>
+										<li><a href="#" title="Ley de Transparencia" class="header-mini-menu"><span class="icon fa fa-eye" aria-hidden="true"></span>Transparencia y Acceso a la Información Pública</a></li>
+										<li><a href="#" title="Sedes y Horarios de Atención" class="header-mini-menu"><span class="icon fa fa-map-marker" aria-hidden="true"></span>Sedes y Horarios de Atención</a></li>
+									</ul>
+									<div class="col-md-4 hidden">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="Buscar...">
+											<span class="input-group-btn">
+												<button class="btn btn-default" type="button"><span class="fa fa-search"></span></button>
+											</span>
+										</div><!-- /input-group -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="main-navigation">
+					<div class="container">
+						<div class="row">
+							<div id="hamburguer" class="hidden-md hidden-lg col-xs-1 col-sm-1">
+								<div class="wrap-hamburguer">
+									<button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+										<span class="hamb-top"></span>
+										<span class="hamb-middle"></span>
+										<span class="hamb-bottom"></span>
+									</button>
+								</div>
+							</div>
+							<div class="visible-md-inline-block visible-lg-inline-block col-xs-10 col-sm-10 col-md-9 main-navigation-wrap">
+								<nav class="navbar navbar-main" role="navigation">
+									<div id="main-menu" class="navbar-collapse collapse">
+									  <ul class="nav navbar-nav">
+								    	<li>
+								      	<a href="#">
+													Inicio
+												</a>
+								      </li>
+									    <li class="dropdown mega-dropdown">
+					            	<a href="#cae" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+													Servicios CAE
+					            	</a>
+												<ul class="dropdown-menu mega-dropdown-menu row">
+													<li class="col-sm-4">
+														<ul>
+															<li>
+																<a href="http://siiguajira.confecamaras.co/disparador.php?accion=invitado&amp;_empresa=30" title="Cámara de Comercio en línea" target="blank">
+																	<img src="http://www.camaraguajira.org/images/banners/camara-virtual-sii8-confecamaras.png" alt="Plataforma de servicios virtuales de la Cámara de Comercio de La Guajira">
+																</a>
+															</li>
+															<li>
+																<a href="http://www.rues.org.co/RUES_Web/Certificados" title="Obtenga su certificado de Cámara de Comercio" target="blank">
+																	<img src="http://www.camaraguajira.org/images/banners/certificado-electronico-rues-confecamaras.png" alt="Expida su certificado en línea">
+																</a>
+															</li>
+															<li>
+																<a href="http://siiguajira.confecamaras.co/disparador.php?accion=invitado&amp;_empresa=30" title="Cámara de Comercio en línea" target="blank">
+																	<img src="img/camara-virtual-servicios-online-guajira.png" alt="Plataforma de servicios virtuales de la Cámara de Comercio de La Guajira">
+																</a>
+															</li>
+														</ul>
+													</li>
+													<li class="col-sm-4">
+														<ul>
+															<li class="dropdown-header"><a href="#">Registros Públicos</a></li>
+															<li class="desc">
+																<a href="#">La Cámara de Comercio de La Guajira cumple por delegación legal la función de llevar registros públicos, como:</a>
+															</li>
+															<li class="divider"></li>
+															<li><a href="#">Registro Mercantil (RM)</a></li>
+															<li><a href="#">Registro de Entidades Sín Ánimo de Lucro (ESADL)</a></li>
+															<li><a href="#">Registro Único de Proponentes (RUP)</a></li>
+															<li><a href="#">Registro Único Nacional de Entidades Operadoras de Libranza (RUNEOL)</a></li>
+															<li><a href="#">Registro Nacional de Turismo (RNT)</a></li>
+															<li class="button"><a href="#" class="btn btn-success">Ver todos los registros <span class="fa fa-chevron-right"></span> </a></li>
+														</ul>
+													</li>
+													<li class="col-sm-4">
+														<ul>
+															<li class="dropdown-header"><a href="#">Centro de Atención Empresarial</a></li>
+															<li><a href="#">Tarifas Registros Públicos CAE</a></li>
+															<li><a href="#">Listado de Beneficiarios Ley 1429</a></li>
+															<li><a href="#">Funcionarios CAE</a></li>
+															<li><a href="#">Noticia Mercantil</a></li>
+															<li><a href="#">Solicitudes de Inscripción</a></li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+											<li class="dropdown mega-dropdown">
+												<a href="#contact" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicios Empresariales</a>
+												<ul class="dropdown-menu mega-dropdown-menu row">
+													<li class="col-sm-4">
+														<ul>
+															<li class="dropdown-header"><a href="#">Desarrollo y Promoción Empresarial</a></li>
+															<li><a href="#">Afiliados</a></li>
+															<li><a href="#">Ferias y Misiones</a></li>
+															<li><a href="#">Capacitaciones</a></li>
+															<li><a href="#">Convocatorias de Desarrollo Empresarial</a></li>
+															<li><a href="#">Programas de Desarrollo e Innovación</a></li>
+															<li><a href="#">Testimoniales</a></li>
+															<li><a href="#">Expoguajira</a></li>
+														</ul>
+													</li>
+													<li class="col-sm-4">
+														<ul>
+															<li class="dropdown-header"><a href="#">Centro Integral de Solución de Conflictos</a></li>
+															<li><a href="#">Abogados del Centro Integral de Solución de Conflictos</a></li>
+															<li><a href="#">Tarifas de Conciliación y Arbitraje</a></li>
+															<li><a href="#">Jornadas de Conciliación</a></li>
+															<li class="dropdown-header"><a href="#"><h4>Formatos y Herramientas</h4></a></li>
+															<li><a href="#">Formatos de Solicitud de Conciiación</a></li>
+															<li><a href="#">Calculadora de Tarifas de Conciliación</a></li>
+														</ul>
+													</li>
+													<li class="col-sm-4">
+														<ul>
+															<li class="dropdown-header"><a href="#">Gestión Cívica y Social</a></li>
+															<li><a href="#">Veedurías Ciudadanas</a></li>
+															<li><a href="#">Campañas Cívicas</a></li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+											<li class="dropdown mega-dropdown">
+												<a href="#contact" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publicaciones</a>
+												<ul class="dropdown-menu mega-dropdown-menu row">
+													<li class="col-sm-4">
+														<ul>
+															<li class="dropdown-header"><a href="#">Informes</a></li>
+															<li><a href="#">Informe de Gestión</a></li>
+															<li><a href="#">Informe Socioeconómico de La Guajira</a></li>
+															<li><a href="#">Informe Expoguajira</a></li>
+															<li class="dropdown-header"><a href="#">Investigación</a></li>
+															<li><a href="#">Boletines</a></li>
+															<li><a href="#">Encuestas</a></li>
+															<li><a href="#">Estudios Socioeconómicos</a></li>
+														</ul>
+													</li>
+													<li class="col-sm-4">
+														<ul>
+															<li class="dropdown-header"><a href="#">Circulares y Avisos Legales</a></li>
+															<li><a href="#">Cartilla de Procesos Nacionales RUES</a></li>
+															<li><a href="#">Publicación de Recursos</a></li>
+															<li><a href="#">Circular Única SIC</a></li>
+															<li><a href="#">Sistema Preventivo de Fraudes SIPREF</a></li>
+															<li><a href="#">Aviso Prestadores de Servicios Turísticos</a></li>
+														</ul>
+													</li>
+													<li class="col-sm-4">
+														<ul>
+															<li class="dropdown-header"><a href="#">Noticias y Boletines</a></li>
+															<li><a href="#">Noti Cámara</a></li>
+															<li><a href="#">Newsletter</a></li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+											<li class="dropdown mega-dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros</a>
+												<ul class="dropdown-menu mega-dropdown-menu row">
+													<li class="col-sm-4">
+														<ul>
+															<li class="dropdown-header">
+																<div id="myCarousel" class="carousel slide" data-ride="carousel">
+																	<div class="carousel-inner">
+																		<div class="item active">
+																			<a href="#"><img src="img/banners/menus/camara-comercio-guajira-creemos-en-lo-nuestro.png" class="img-responsive" alt="product 1"></a>
+																		</div><!-- End Item -->
+																	</div><!-- End Carousel Inner -->
+																</div><!-- /.carousel -->
+															</li>
+															<li class="divider"></li>
+															<li><a href="#">Ver más <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+														</ul>
+													</li>
+													<li class="col-sm-4">
+													<ul>
+														<li class="dropdown-header"><a href="#">Quiénes Somos</a></li>
+														<li>
+															<a href="#">Somos una organización gremial, privada, comprometida con el desarrollo empresarial, social y la competitividad regional.</a>
+														</li>
+														<li role="separator" class="divider"></li>
+														<li><a href="#">Historia</a></li>
+														<li><a href="#">Misión, Visión y Valores</a></li>
+														<li><a href="#">Junta Directiva</a></li>
+														<li><a href="#">Estatutos</a></li>
+														<li><a href="#">Sedes y Horarios de Atención</a></li>
+													</ul>
+												</li>
+												<li class="col-sm-4">
+													<ul>
+														<li><a href="#">Preguntas Frecuentes</a></li>
+														<li><a href="#">Glosario</a></li>
+														<li><a href="#">Políticas</a></li>
+														<li><a href="#">Transparencia y Acceso a la Información Pública</a></li>
+														<li><a href="#">Calendario de Eventos</a></li>
+														<li><a href="#">Galería</a></li>
+														<li role="separator" class="divider"></li>
+														<li class="dropdown-header"><a href="#">Contáctenos</a></li>
+														<li><a href="#">Formulario PQRS</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div><!--/.nav-collapse -->
+							</nav>
+						</div>
+						<div class="helper-logo hidden-md hidden-lg col-xs-5 col-sm-7"></div>
+						<div class="col-xs-2 col-sm-2 col-md-3 col-lg-3">
+							<h2 id="logo" class="navbar-brand" >
+								<a href="http://www.camaraguajira.org/" title="Cámara de Comecio de La Guajira" class="brand">
+									<img src="http://www.camaraguajira.org/images/camara-de-comercio-guajira-logo.png" alt="Cámara de Comercio de La Guajira"/>
+								</a>
+							</h2>
+						</div>
+					</div>
+				</div>
+			</section>
+		</header>
+
+		<!-- ||||||||||||||||||||||||| SHOWCASE ||||||||||||||||||||||||| -->
+				<section class="showcase" role="main">
+					<div class="wrap">
+						<!-- <div class="background-blur"></div> -->
+						<div class="jumbotron text-center">
+								<div class="banner-main">
+									<h2 class="header">Noticias</h2>
+									<p>Actualidad empresarial de La Guajira.
+									</p>
+								</div>
+						</div>
+					</div>
+				</section>
+
+		<!-- ||||||||||||||||||||||||| BREADCRUMB ||||||||||||||||||||||||| -->
+				<section class="breadcrumb">
+					<div class="container">
+						<div class="row">
+							<!-- <div class="background-blur"></div> -->
+							<ol class="breadcrumb">
+							  <li><a href="#">Inicio</a></li>
+							  <li><a href="#" class="active">Noticias</a></li>
+							</ol>
+						</div>
+					</div>
+				</section>
+
+<!-- ||||||||||||||||||||||||| CATEGORY ||||||||||||||||||||||||| -->
+			<section class="news category">
+				<div class="container">
+					<div class="row description">
+						<div class="col-md-12 m-b-lg">
+							<p>Una descripción de la categoría que se esté visualizando. Se requiere un texto para cada categoría creada, como: Registros Públicos, Programa para el Desarrollo Empresarial, Centro de Conciliación, Nosotros. Esto permitirá que el visitante ingrese a los contenidos de manera mucho más organizada y que tenga una visión general de lo contenidos relacionados con las categorías principales.
+							</p>
+						</div>
+					</div>
+					<div class="row">
+				    <div class="col-sm-6 col-md-4 m-b-lg">
+							<div class="panel panel-default panel-news m-b-0">
+								<div class="panel-heading">
+									<img src="http://www.camaraguajira.org/images/news/comite-plan-apertura-frontera.jpg" alt="Noticia 1">
+								</div>
+								<div class="panel-body text-center">
+									<div class="share">
+										<a href="#" title="Compartir en Facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+										<a href="#" title="Compartir en Twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+										<a href="#" title="Enviar a un amigo" class="mail"><span class="fa fa-envelope"></span></a>
+									</div>
+									<h3 class="panel-title">
+										<a href="#" title="" class="">
+											Camcomercio Participa en Plan Apertura de La Frontera
+										</a>
+									</h3>
+									<p class="news-intro-text">La Cámara de Comercio de La Guajira ha venido participando en las sesiones de trabajo de la mesa técnica de frontera para el departamento de La ...</p>
+									<a href="noticias/11.html" title="" class="btn btn-link read-more">
+										<span class="fa fa-add-user"></span> Ver más
+									</a>
+									<div class="row meta-data hidden-xs">
+										<div class="col-sm-2 col-md-2 col-lg-2 meta"><small class="shared"><span class="fa fa-eye"></span> 12</small></div>
+										<div class="col-sm-2 col-md-2 col-lg-2 meta"><small class="commented"><span class="fa fa-comment"></span> 15</small></div>
+										<div class="col-sm-8 col-md-8 col-lg-8 meta text-right"><small class="date"><span class="fa fa-calendar-o"></span> 22 de marzo de 2017</small></div>
+									</div>
+								</div>
+							</div>
+						</div>
+				    <div class="col-sm-6 col-md-4 m-b-lg">
+							<div class="panel panel-default panel-news m-b-0">
+								<div class="panel-heading">
+									<img src="http://www.camaraguajira.org/images/banners/programas/turismo-emprende-camara-guajira.png" alt="Noticia 1">
+								</div>
+								<div class="panel-body text-center">
+									<div class="share">
+										<a href="#" title="Compartir en Facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+										<a href="#" title="Compartir en Twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+										<a href="#" title="Enviar a un amigo" class="mail"><span class="fa fa-envelope"></span></a>
+									</div>
+									<h3 class="panel-title">
+										<a href="#" title="" class="">
+											Convocatoria Turismo Emprende
+										</a>
+									</h3>
+									<p class="news-intro-text">ANTECEDENTES La Asociación Ecopetrol Chevron, la Cámara de Comercio de La Guajira, La Fundación Guajira Competitiva y el SENA ...</p>
+									<a href="noticias/11.html" title="" class="btn btn-link m-b read-more">
+										<span class="fa fa-add-user"></span> Ver más
+									</a>
+									<div class="row meta-data hidden-xs">
+										<div class="col-sm-2 col-md-2 col-lg-2 meta"><small class="shared"><span class="fa fa-eye"></span> 12</small></div>
+										<div class="col-sm-2 col-md-2 col-lg-2 meta"><small class="commented"><span class="fa fa-comment"></span> 15</small></div>
+										<div class="col-sm-8 col-md-8 col-lg-8 meta text-right"><small class="date"><span class="fa fa-calendar-o"></span> 22 de marzo de 2017</small></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix visible-sm-block"></div>
+				    <div class="col-sm-6 col-md-4 m-b-lg">
+							<div class="panel panel-default panel-news m-b-0">
+								<div class="panel-heading">
+									<img src="http://www.camaraguajira.org/images/news/banner-rueda-negocios-turismo-guajira-2016.jpg" alt="Noticia 1">
+								</div>
+								<div class="panel-body text-center">
+									<div class="share">
+										<a href="#" title="Compartir en Facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+										<a href="#" title="Compartir en Twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+										<a href="#" title="Enviar a un amigo" class="mail"><span class="fa fa-envelope"></span></a>
+									</div>
+									<h3 class="panel-title">
+										<a href="#" title="" class="">Rueda de Negocios Sector Turismo</a>
+									</h3>
+									<p class="news-intro-text">La Red Regional de Emprendimiento realizará el viernes 22 de julio de 7:30 am. a 3:00 pm. en la Plazoleta del Centro Comercial Viva Wajira ...</p>
+									<a href="noticias/11.html" title="" class="btn btn-link m-b read-more">
+										<span class="fa fa-add-user"></span> Ver más
+									</a>
+									<div class="row meta-data hidden-xs">
+										<div class="col-sm-2 col-md-2 col-lg-2 meta"><small class="shared"><span class="fa fa-eye"></span> 12</small></div>
+										<div class="col-sm-2 col-md-2 col-lg-2 meta"><small class="commented"><span class="fa fa-comment"></span> 15</small></div>
+										<div class="col-sm-8 col-md-8 col-lg-8 meta text-right"><small class="date"><span class="fa fa-calendar-o"></span> 22 de marzo de 2017</small></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix visible-md-block visible-lg-block"></div>
+						<div class="col-sm-6 col-md-4 m-b-lg">
+							<div class="panel panel-default panel-news m-b-0">
+								<div class="panel-heading">
+									<img src="http://www.camaraguajira.org/images/events/banner-gestion-internacional-turismo-guajira-2016.jpg" alt="Noticia 1">
+								</div>
+								<div class="panel-body text-center">
+									<div class="share">
+										<a href="#" title="Compartir en Facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+										<a href="#" title="Compartir en Twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+										<a href="#" title="Enviar a un amigo" class="mail"><span class="fa fa-envelope"></span></a>
+									</div>
+									<h3 class="panel-title">
+										<a href="#" title="" class="">Gestión Internacional del Turismo
+										</a>
+									</h3>
+									<p class="news-intro-text">El Ministerio de Comercio, Industria y Turismo, ProColombia, Cámara de Comercio de La Guajira, Gobernación de La Guajira, Alcaldía Distrital ...</p>
+									<a href="noticias/11.html" title="" class="btn btn-link m-b read-more">
+										<span class="fa fa-add-user"></span> Ver más
+									</a>
+									<div class="row meta-data hidden-xs">
+										<div class="col-sm-2 col-md-2 col-lg-2 meta"><small class="shared"><span class="fa fa-eye"></span> 12</small></div>
+										<div class="col-sm-2 col-md-2 col-lg-2 meta"><small class="commented"><span class="fa fa-comment"></span> 15</small></div>
+										<div class="col-sm-8 col-md-8 col-lg-8 meta text-right"><small class="date"><span class="fa fa-calendar-o"></span> 22 de marzo de 2017</small></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix visible-sm-block"></div>
+						<div class="col-sm-6 col-md-4 m-b-lg">
+							<div class="panel panel-default panel-news m-b-0">
+								<div class="panel-heading">
+									<img src="http://www.camaraguajira.org/images/banners/camara-comercio-la-guajira-informa.png" alt="Noticia 1">
+								</div>
+								<div class="panel-body text-center">
+									<div class="share">
+										<a href="#" title="Compartir en Facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+										<a href="#" title="Compartir en Twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+										<a href="#" title="Enviar a un amigo" class="mail"><span class="fa fa-envelope"></span></a>
+									</div>
+									<h3 class="panel-title">
+										<a href="#" title="" class="">
+											Comunicado: Asociación Indígena de La Guajira Waya Wayuu
+										</a>
+									</h3>
+									<p class="news-intro-text">El Presidente Ejecutivo de la Cámara de Comercio de La Guajira, Alvaro Romero Guerrero se permite hacer claridad ante la ciudadanía sobre la ...</p>
+									<a href="noticias/11.html" title="" class="btn btn-link m-b read-more">
+										<span class="fa fa-add-user"></span> Ver más
+									</a>
+									<div class="row meta-data hidden-xs">
+										<div class="col-sm-2 col-md-2 col-lg-2 meta"><small class="shared"><span class="fa fa-eye"></span> 12</small></div>
+										<div class="col-sm-2 col-md-2 col-lg-2 meta"><small class="commented"><span class="fa fa-comment"></span> 15</small></div>
+										<div class="col-sm-8 col-md-8 col-lg-8 meta text-right"><small class="date"><span class="fa fa-calendar-o"></span> 22 de marzo de 2017</small></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 m-b-lg">
+							<div class="panel panel-default panel-news m-b-0">
+								<div class="panel-heading">
+									<img src="http://www.camaraguajira.org/images/camara-cerca-empresarios-guajira.jpg" alt="Noticia 1">
+								</div>
+								<div class="panel-body text-center">
+									<div class="share">
+										<a href="#" title="Compartir en Facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+										<a href="#" title="Compartir en Twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+										<a href="#" title="Enviar a un amigo" class="mail"><span class="fa fa-envelope"></span></a>
+									</div>
+									<h3 class="panel-title">
+										<a href="#" title="" class="">
+											Cámara Más Cerca de sus Empresarios
+										</a>
+									</h3>
+									<p class="news-intro-text">Con el fin de brindarles facilidades a los empresarios para la renovación de sus registros y otros trámites registrales, la Cámara de ...</p>
+									<a href="noticias/11.html" title="" class="btn btn-link m-b read-more">
+										<span class="fa fa-add-user"></span> Ver más
+									</a>
+									<div class="row meta-data hidden-xs">
+										<div class="col-sm-2 col-md-2 col-lg-2 meta"><small class="shared"><span class="fa fa-eye"></span> 12</small></div>
+										<div class="col-sm-2 col-md-2 col-lg-2 meta"><small class="commented"><span class="fa fa-comment"></span> 15</small></div>
+										<div class="col-sm-8 col-md-8 col-lg-8 meta text-right"><small class="date"><span class="fa fa-calendar-o"></span> 22 de marzo de 2017</small></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix visible-sm-block"></div>
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6  m-b-lg items-more">
+							<ol class="nav nav-tabs nav-stacked">
+								<li>
+									<a href="/boletines-de-prensa/285-jornada-de-formalizacion-turistica-y-registro-nacional-de-turismo.html">
+										Jornada de Formalización Turística y Registro Nacional de Turismo</a>
+								</li>
+								<li>
+									<a href="/boletines-de-prensa/282-actualizacion-en-insolvencia-economica-de-persona-natural-nc.html">
+										Actualización en Insolvencia Económica de Persona Natural NC</a>
+								</li>
+								<li>
+									<a href="/boletines-de-prensa/281-camara-de-comercio-apoya-rueda-de-negocios-negocia-turismo.html">
+										Cámara de Comercio Apoya Rueda de Negocios "Negocia Turismo"</a>
+								</li>
+								<li>
+									<a href="/boletines-de-prensa/280-camara-de-comercio-socializa-fuentes-de-financiacion-para-emprendedores.html">
+										Camcomercio Socializa Fuentes de Financiación para Emprendedores</a>
+								</li>
+							</ol>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 m-b-lg cat-children">
+							<h3> Subcategorías </h3>
+							<div class="last">
+								<h3 class="page-header item-title">
+									<a href="/elecciones.html">
+										Elecciones
+									</a>
+								</h3>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 m-b-lg text-center">
+							<p class="counter"> Página 1 de 32 </p>
+								<ul class="pagination pagination-lg">
+									<li class="disabled">
+										<a><span class="fa fa-first"><<</span></a>
+									</li>
+									<li class="disabled"><a><span class="fa fa-previous"><</span></a></li>
+									<li class="active hidden-phone"><a>1</a></li>
+									<li class="hidden-phone"><a title="2" href="/boletines-de-prensa.html?start=5" class="pagenav">2</a></li>
+									<li class="hidden-phone"><a title="3" href="/boletines-de-prensa.html?start=10" class="pagenav">3</a></li>
+									<li class="hidden-phone"><a title="4" href="/boletines-de-prensa.html?start=15" class="pagenav">4</a></li>
+									<li class="hidden-phone"><a title="5" href="/boletines-de-prensa.html?start=20" class="pagenav">...</a></li>
+									<li class="hidden-phone"><a title="6" href="/boletines-de-prensa.html?start=25" class="pagenav">6</a></li>
+									<li class="hidden-phone"><a title="7" href="/boletines-de-prensa.html?start=30" class="pagenav">7</a></li>
+									<li class="hidden-phone"><a title="8" href="/boletines-de-prensa.html?start=35" class="pagenav">8</a></li>
+									<li class="hidden-phone"><a title="9" href="/boletines-de-prensa.html?start=40" class="pagenav">9</a></li>
+									<li class="hidden-phone"><a title="10" href="/boletines-de-prensa.html?start=45" class="pagenav">10</a></li>
+									<li><a title="Siguiente" href="/boletines-de-prensa.html?start=5" class="pagenav"><span class="fa fa-next">></span></a></li>
+									<li><a title="Final" href="/boletines-de-prensa.html?start=155" class="pagenav"><span class="fa fa-last">>></span></a></li>
+								</ul>
+						</div>
+					</div>
+
+					<div class="row row-backbordered subscribe-wide"> <!-- Style from http://themes.getbootstrap.com/ index -->
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="panel panel-default panel-floating panel-floating-inline">
+								<div class="panel-body">
+									<a class="panel-thumbnail hidden-xs" href="#">
+										<img src="img/subscripcion-noticias-camara-comercio-la-guajira-90.png">
+									</a>
+									<div class="panel-content">
+										<h3 class="header hidden-xs">¿Quiere mantenerse informado?</h3>
+										<p class="text-muted hidden-xs"><small>Podemos enviarle las nuevas noticias.</small></p>
+									</div>
+									<div class="panel-actions">
+										<form class="form-inline pull-right" action="//getbootstrap.us13.list-manage.com/subscribe/post?u=e3428dd6b8fda73bc5ba8b6e6&amp;id=198881a019" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
+											<input class="form-control input-lg panel-email-input" id="mce-EMAIL" name="EMAIL" type="email" placeholder="Registra tu email">
+											<!-- This is to throw off spambots -->
+											<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e3428dd6b8fda73bc5ba8b6e6_198881a019" tabindex="-1" value=""></div>
+											<input type="submit" value="Suscribirse" name="subscibe" id="mc-embedded-subscribe" class="btn btn-lg">
+											<div id="mce-responses" class="clear">
+												<div class="response" id="mce-error-response" style="display:none"></div>
+												<div class="response" id="mce-success-response" style="display:none"></div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+<!-- ||||||||||||||||||||||||| REDES SOCIALES ||||||||||||||||||||||||| -->
+
+			<section class="social-widgets">
+				<div class="container">
+					<div class="page-header">
+						<h2>Redes Sociales <small>Lo que pasa en las redes</small></h2>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h3 class="panel-title"><span class="fa fa-facebook icon"></span> FACEBOOK</h3>
+								</div>
+								<div class="panel-body">
+								<!-- Plugin de Facebook
+								<div class="fb-page" data-href="https://www.facebook.com/ccguajira" data-tabs="timeline" data-height="470" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ccguajira" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ccguajira">Cámara de Comercio de La Guajira</a></blockquote></div>
+								-->
+									<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fccguajira&tabs=timeline&width=316&height=470&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="316" height="470" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h3 class="panel-title"><span class="fa fa-twitter icon"></span> TWITTER</h3>
+								</div>
+								<div class="panel-body">
+									<a class="twitter-timeline"  href="https://twitter.com/ccguajira" data-widget-id="451097160629510144" data-chrome="noheader">Tweets por el @ccguajira.</a>
+									<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h3 class="panel-title"><span class="fa fa-youtube-play icon"></span> YOUTUBE</h3>
+								</div>
+								<div class="panel-body">
+									<a class="twitter-timeline"  href="https://twitter.com/ccguajira" data-widget-id="451097160629510144" data-chrome="noheader">Tweets por el @ccguajira.</a>
+									<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+<!-- ||||||||||||||||||||||||| FOOTER ||||||||||||||||||||||||| -->
+
+			<section class="footer-top">
+				<div class="container">
+					<div class="row">
+						<div id="footer-logos" class="owl-carousel owl-theme">
+							<div class="item">
+								<a href="http://www.confecamaras.org.co/" title="Confecámaras - Red de Cámaras de Comercio">
+									<img src="img/logos/confecamaras.png" alt="Confecámaras - Red de Cámaras de Comercio" class="logo-aliados">
+								</a>
+							</div>
+							<div class="item">
+								<a href="http://www.sic.gov.co/" title="Superintendencia de Industria y Comercio - SIC">
+									<img src="img/logos/superintendencia-de-industria-y-comercio.png" alt="Superintendencia de Industria y Comercio - SIC" class="logo-aliados">
+								</a>
+							</div>
+							<div class="item">
+								<a href="http://www.rues.org.co/" title="RUES - Registro Único Empresarial y Social">
+									<img src="img/logos/rues-registro-unico-empresarial-social.png" alt="RUES - Registro Único Empresarial y Social" class="logo-aliados">
+								</a>
+							</div>
+							<div class="item">
+								<a href="http://www.sena.edu.co/" title="Servicio Nacional de Aprendizaje - SENA">
+									<img src="http://www.sena.edu.co/Style%20Library/alayout/images/logoSena.png" alt="Servicio Nacional de Aprendizaje - SENA" class="logo-aliados">
+								</a>
+							</div>
+							<div class="item">
+								<a href="http://www.mincit.gov.co/" title="Ministerio de Comercio, Industria y Turismo">
+									<img src="http://www.mincit.gov.co/galeria/712/info/baseMCIT2/imagenes/logo.png" alt="Ministerio de Comercio, Industria y Turismo" class="logo-aliados">
+								</a>
+							</div>
+							<div class="item">
+								<a href="http://www.contraloria.gov.co/" title="Contraloría General de La República">
+									<img src="http://www.archivogeneral.gov.co/sites/all/themes/nevia/2016/entescontrol/contraloria1.jpg" alt="Contraloría General de La República" class="logo-aliados">
+								</a>
+							</div>
+							<div class="item">
+								<a href="http://www.laguajira.gov.co/" title="Gobernación de La Guajira">
+									<img src="http://papsivi.ac-colombia.net/image/LOGO-GUAJIRA.png" alt="Gobernación de La Guajira" class="logo-aliados">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+<!-- ||||||||||||||||||||||||| NOTIFICACIONES ||||||||||||||||||||||||| -->
+
+			<section class="notifications">
+				<div id="homepageNotification" class="panel panel-default panel-floating panel-floating-fixed animated hidden">
+					<div class="panel-body">
+						<button type="button" class="close" aria-label="Close" data-action="dismiss-homepageNotification">
+							<span aria-hidden="true">×</span>
+						</button>
+						<small class="text-uppercase text-muted">Birthday Sale</small>
+						<h5 class="m-t-0">Get 25% Off Today</h5>
+						<p class="text-muted">In honor of Bootstrap Theme’s 1st birthday, we’re offering everyone who signs up for our emails 25% off until August 31st. We only email for new themes, discounts, and major updates. The coupon code will be sent to your email instantly!</p>
+						<form class="form" action="//getbootstrap.us13.list-manage.com/subscribe/post?u=e3428dd6b8fda73bc5ba8b6e6&amp;id=198881a019" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
+							<input class="form-control m-b" id="mce-EMAIL" name="EMAIL" type="email" placeholder="Email">
+							<!-- This is to throw off spambots -->
+							<div style="position: absolute; left: -5000px;" aria-hidden="true">
+								<input type="text" name="b_e3428dd6b8fda73bc5ba8b6e6_198881a019" tabindex="-1" value="">
+							</div>
+							<input class="btn form-control" type="submit" value="Get 25% Off!" name="subscibe" id="mc-embedded-subscribe">
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>
+						</form>
+				    </div>
+				</div>
+			</section>
+
+			<footer>
+				<section class="footer-a">
+					<div class="container">
+		                <div class="row">
+		                    <div class="col-xs-12 col-md-3">
+		                    	<p class="text-center">
+		                    		<img src="img/logo-camara-comercio-guajira-blanco.png" alt="Cámara de Comercio de La Guajira">
+		                    	</p>
+		                    	<p class="text-center">
+		                    		<img src="img/marca-region-la-guajira-descubre-mas-de-ti-blanco.png" alt="Cámara de Comercio de La Guajira">
+		                    	</p>
+		                    	<hr>
+		                    </div>
+		                    <div class="hidden-xs col-sm-12 col-md-9">
+		                        <div class="row">
+		                            <div class="col-sm-3">
+		                                <p>OPORTUNIDADES</p>
+		                                <ul class="list-unstyled">
+		                                    <li><a href="/inscripciones/ideacion/">Eventos y Capacitaciones</a></li>
+		                                    <li><a href="/inscripciones/consolidacion/">Emprender</a></li>
+		                                    <li><a href="/inscripciones/entrenamiento/">Fortalecimiento</a></li>
+		                                    <li><a href="/inscripciones/convocatorias/">Trabaje con Nosotros</a></li>
+		                                </ul>
+		                            </div>
+		                            <div class="col-sm-3">
+		                                <p>SERVICIOS CAE</p>
+		                                <ul class="list-unstyled">
+		                                    <li><a href="/comunidad/en-el-pais/">Cámara Virtual</a></li>
+		                                    <li><a href="/comunidad/emprendedores/"></a></li>
+		                                    <li><a href="/comunidad/galeria-de-apps/">Publicaciones Registrales</a></li>
+		                                    <li><a href="/comunidad/mentores/">Formatos CAE</a></li>
+		                                </ul>
+		                            </div>
+		                            <div class="col-sm-3">
+		                                <p>COMUNICACIÓN</p>
+		                                <ul class="list-unstyled">
+		                                    <li><a href="/comunicaciones/noticias/">Noticias</a></li>
+		                                    <li><a href="/comunicaciones/newsletters/">Newsletter</a></li>
+																				<li><a href="/comunicaciones/newsletters/">Contáctenos</a></li>
+		                                </ul>
+		                            </div>
+		                            <div class="col-sm-3">
+		                                <p>NOSOTROS</p>
+		                                <ul class="list-unstyled">
+		                                    <li><a href="/acerca/appsco/#que-es">Cámara de Comercio</a></li>
+																				<li><a href="/acerca/appsco/#aliados">Informe de Gestión</a></li>
+		                                    <li><a href="#">Tratamiento de Datos Personales</a></li>
+		                                    <li><a href="/contacto/">Glosario</a></li>
+		                                    <li><a href="/acerca/faq/">Preguntas Frecuentes</a></li>
+		                                    <li><a href="https://status.apps.co/" target="_blank">Transparencia y Acceso a la Información Pública</a></li>
+		                                </ul>
+		                            </div>
+		                            <div class="col-sm-12 col-md-9 col-xs-9">
+										<div class="social-buttons text-center">
+							                <p>SÍGUENOS EN REDES SOCIALES</p>
+							                <ul class="list-inline list-unstyled">
+							                    <li>
+							                        <a href="https://www.youtube.com/user/ccguajira" title="Youtube" target="_blank">
+							                            <span class="fa fa-youtube"></span>
+							                        </a>
+							                    </li>
+							                    <li>
+							                        <a href="https://twitter.com/ccguajira" title="Twitter" target="_blank">
+							                            <span class="fa fa-twitter"></span>
+							                        </a>
+							                    </li>
+							                    <li>
+							                        <a href="https://plus.google.com/117129111063365705735" title="Google+" target="_blank">
+							                            <span class="fa fa-google-plus"></span>
+							                        </a>
+							                    </li>
+							                    <li>
+							                        <a href="https://www.facebook.com/ccguajira" title="Facebook" target="_blank">
+							                            <span class="fa fa-facebook"></span>
+							                        </a>
+							                    </li>
+							                </ul>
+							            </div>
+									</div>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+				</section>
+				<section class="footer-b hidden">
+					<div class="container">
+						<div class="row">
+
+						</div>
+					</div>
+				</section>
+				<section class="footer-c">
+					<div class="container">
+						<address class="location text-center">
+			                <a href="http://www.camaraguajira.org/" title="Cámara de Comercio de La Guajira"><strong>Cámara de Comercio de La Guajira</strong></a><br />
+			                Sede Principal<br />
+			                Carrera 6 No. 11 - 03 <br class="visible-xs">Riohacha, Colombia<br />
+			                <div class="hidden-xs">Teléfonos: <a href="tel:+570357289800">+57(5) 728 98 00, 3162465999, 3174407010 </a></div><br/>
+			                <div>Correo Electrónico Institucional y para Notificaciones Judiciales: <a href="mailto:ccguajira@camaraguajira.org">ccguajira@camaraguajira.org</a></div>
+			                Horario de Atención: <br class="visible-xs">Lunes a Viernes, 8:00 am a 12:00 pm - 2:00 pm a 6:00 pm.
+		            	</address>
+		            	<div class="visible-xs text-center">
+							<a class="btn btn-success" href="tel:+570357279800">
+								<span class="fa fa-phone"></span> QUIERO LLAMAR AHORA
+							</a>
+							<p><small>Teléfono: +57 (5) 7279800</small></p>
+						</div>
+						<div class="text-center">
+							<a href="http://www.camaraguajira.org/nosotros/sedes.html" title="Sedes de la Cámara de Comercio de La Guajira">
+								Sedes y Horarios de Atención
+							</a>
+						</div>
+					</div>
+				</section>
+				<section class="footer-d">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12">
+								<small class="text-center">&copy; 2016 - 2017 Cámara de Comercio de La Guajira, Colombia. <a href="http://www.camaraguajira.org/nosotros/aviso-de-privacidad-de-la-camara-de-comercio-de-la-guajira.html" title="Aviso de Privacidad de la Cámara de Comercio de La Guajira">Aviso de Privacidad de la Cámara de Comercio de La Guajira</a></small>
+							</div>
+						</div>
+					</div>
+				</section>
+			</footer>
+		</div>
+	</div>
+
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+  <script src="libs/jquery/jquery.js"></script>
+  <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+  <script src="libs/owl-carousel/dist/owl.carousel.min.js"></script>
+	<script src="html/mod_init_mega_menu/layouts/sidebar/js/scripts.js"></script>
+  <script src="js/scripts.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var main_carousel = $('#main-carousel');
+			main_carousel.owlCarousel({
+				center: true,
+				items: 1,
+				loop: true,
+				margin: 0,
+				autoplay: true,
+				autoplayTimeout: 3000,
+				autoplayHoverPause: true,
+				dots:false,
+				nav:true,
+				navText:['<span class="fa fa-chevron-left"></span>','<span class="fa fa-chevron-right"></span>']
+			});
+			$('#footer-logos').owlCarousel({
+				center: true,
+				items: 4,
+				loop: true,
+				margin: 10,
+				autoplay: true,
+				autoplayTimeout: 3000,
+				autoplayHoverPause: true,
+				autoWidth:true,
+				dots:false,
+				nav:true,
+				navText:['<span class="fa fa-chevron-left"></span>','<span class="fa fa-chevron-right"></span>'],
+				responsive:{
+	        0:{
+	            items:1
+	        },
+	        480:{
+	            items:2
+	        },
+	        768:{
+	            items:3
+	        },
+					992:{
+	            items:4
+	        }
+    		}
+			});
+		});
+
+		(function(){
+			// ADD SLIDEDOWN ANIMATION TO DROPDOWN //
+			$('.dropdown').on('show.bs.dropdown', function(e){
+			    $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+			});
+			// ADD SLIDEUP ANIMATION TO DROPDOWN //
+			$('.dropdown').on('hide.bs.dropdown', function(e){
+			    $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+			});
+			$("#button-main-menu").click(function(e) {
+	        e.preventDefault();
+	        $("#wrapper").toggleClass("toggled");
+			});
+		})();
+  </script>
+</body>
+</html>
